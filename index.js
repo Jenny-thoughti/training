@@ -7,5 +7,5 @@ app.get('/hello',(req, ress) => {
 })
 
 app.listen(port, () => {
-    console.log('App Listening on port ${port}')
+    console.log('App Listening on port', port)
 })
